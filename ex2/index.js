@@ -46,12 +46,12 @@ const createBtn = (label, onClick) => {
 };
 
 // Cria os botões
-const addBtn = createBtn("Add", () => {
+const addBtn = createBtn("Adicionar", () => {
     vList.addElmnt(input.value);
     updateRemoveBtn(); 
 });
 
-const removeBtn = createBtn("Remove", () => {
+const removeBtn = createBtn("Excluir", () => {
     vList.rmElemnt();
     updateRemoveBtn(); 
 });
